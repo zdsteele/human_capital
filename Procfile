@@ -1,1 +1,0 @@
-web: gunicorn human_capital_example:app
