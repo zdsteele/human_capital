@@ -1,5 +1,5 @@
 services:
   - name: app
     type: web
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    buildCommand: docker build -t my-flask-app .
+    startCommand: docker run -p 8080:5000 my-flask-app
