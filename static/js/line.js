@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         yaxis: {
           range: [0, 200] // Set the range of the y-axis
         },
-        title: 'Number of employee departers per year',
+        title: 'Employee Depatures Per Year',
       };
   
       Plotly.newPlot('line', data, layout);
